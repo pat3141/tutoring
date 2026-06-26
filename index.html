@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pat S. Pathak — Maths Tutor | Canberra, ACT</title>
-  <meta name="description" content="ACT Registered Teacher. Specialist & Mathematical Methods. Master of Teaching. 15+ years tutoring. $80/hr. Canberra, ACT.">
+  <meta name="description" content="ACT Registered Teacher. Specialist & Mathematical Methods. Master of Teaching. 15+ years tutoring. From $70/hr. Canberra, ACT.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <!-- NAV -->
 <nav aria-label="Main navigation">
   <div class="nav-inner">
-    <a class="nav-logo" href="#top">Pat S. Pathak</a>
+    <a class="nav-logo" href="#top">Pat S. <span>Pathak</span></a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#subjects">Subjects</a></li>
@@ -28,11 +28,17 @@
 
 <!-- HERO -->
 <div id="top">
+<div class="hero-wrap">
+  <div class="hero-dots" aria-hidden="true">
+    <div class="hero-dot" style="width:180px;height:180px;top:-40px;right:10%;animation-delay:0s;"></div>
+    <div class="hero-dot" style="width:80px;height:80px;top:60%;left:5%;animation-delay:2s;opacity:0.6;"></div>
+    <div class="hero-dot" style="width:50px;height:50px;top:20%;left:30%;animation-delay:4s;opacity:0.4;"></div>
+  </div>
   <div class="hero">
     <div class="hero-text">
-      <p class="hero-eyebrow">Canberra, ACT &mdash; Online &amp; in person</p>
+      <p class="hero-eyebrow">📍 Canberra, ACT &mdash; Online &amp; in person</p>
       <h1>Maths that <em>finally</em> makes sense</h1>
-      <p class="hero-sub">ACT Registered Teacher with 15+ years tutoring experience and over 200 students helped. Specialist Mathematics, Methods, IB, SAT &mdash; all levels from Year 10 to university entry.</p>
+      <p class="hero-sub">ACT Registered Teacher currently teaching Specialist Mathematics and Mathematical Methods full time. Specialising in Specialist Mathematics, Mathematical Methods, Specialist Methods, Extension Mathematics, and International Baccalaureate &mdash; all levels from Year 10 to university entry. Starting from $70/hr online.</p>
       <div class="hero-actions">
         <a class="btn-primary" href="#book">Book your first session</a>
         <a class="btn-secondary" href="#about">Learn more</a>
@@ -40,7 +46,7 @@
     </div>
     <div>
       <div class="hero-card">
-        <img src="images/profile.jpg" alt="Pat S Pathak" style="width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:center top;margin-bottom:20px;">
+        <div class="avatar-wrap"><img src="images/profile.jpg" alt="Pat S. Pathak"></div>
         <h2>Pat S. Pathak</h2>
         <p class="role">Mathematics Tutor &bull; Very responsive</p>
         <div class="stat-grid">
@@ -53,8 +59,8 @@
             <div class="stat-label">Years tutoring</div>
           </div>
           <div class="stat-box">
-            <div class="stat-num">$80</div>
-            <div class="stat-label">Per hour</div>
+            <div class="stat-num">$70</div>
+            <div class="stat-label">from / hour</div>
           </div>
           <div class="stat-box">
             <div class="stat-num">5+</div>
@@ -69,22 +75,23 @@
     </div>
   </div>
 </div>
+</div>
 
 <hr class="divider">
 
 <!-- ABOUT -->
-<section id="about">
+<section id="about" class="reveal">
   <p class="section-label">About</p>
   <div class="about-grid">
     <div class="about-body">
-      <h2>Experienced, registered, and passionate about maths</h2>
-      <p>I'm a licensed Mathematics teacher currently teaching in Canberra and registered with the ACT Teacher Quality Institute (TQI). I've been tutoring since the age of 15 &mdash; long before I became a classroom teacher &mdash; and have supported more than 200 students through private tutoring, online lessons, and tutoring organisations across Australia and the United States.</p>
-      <p>My approach focuses on breaking down complex concepts into clear, manageable steps, tailored to each student's individual needs. Whether you're catching up on missed content, preparing for a big exam, or aiming for top results, I provide personalised guidance to help you get there. I'm also happy to support students in building the discipline, resilience, and habits that underpin long-term success.</p>
-      <p>Beyond mathematics, I'm an endurance athlete who has completed Ironman events and World Major Marathons, and I enjoy scuba diving, table tennis, and travel.</p>
+      <h2>Teacher &amp; tutor with 15+ years of experience</h2>
+      <p>I am a Mathematics teacher currently teaching in Canberra, registered with the ACT Teacher Quality Institute (TQI). I have been tutoring since the age of 15 and have supported more than 200 students through private tutoring, online lessons, and tutoring organisations across Australia and the United States.</p>
+      <p>My approach focuses on breaking down complex concepts into clear, manageable steps, tailored to the individual needs of each student. Whether a student needs to catch up on missed content, prepare for an upcoming exam, or aim for top results, I provide personalised guidance to help them get there. I am also happy to support students in building the discipline, resilience, and habits that underpin long-term success.</p>
+      <p>Outside of teaching, I am an endurance athlete who has completed Ironman events and World Major Marathons. I also enjoy scuba diving, table tennis, and travel.</p>
     </div>
     <div>
       <ul class="cred-list">
-        <li class="cred-item">
+        <li class="cred-item reveal">
           <div class="cred-icon">🎓</div>
           <div class="cred-text">
             <strong>GCE Advanced Level</strong>
@@ -112,13 +119,7 @@
             <span>Teacher Quality Institute (TQI)</span>
           </div>
         </li>
-        <li class="cred-item">
-          <div class="cred-icon">💻</div>
-          <div class="cred-text">
-            <strong>Teaching Assistant</strong>
-            <span>University of Sydney Coding Bootcamp</span>
-          </div>
-        </li>
+
       </ul>
     </div>
   </div>
@@ -127,8 +128,8 @@
 <hr class="divider">
 
 <!-- SUBJECTS -->
-<section id="subjects">
-  <p class="section-label">What I teach</p>
+<section id="subjects" class="reveal">
+  <p class="section-label">What I tutor</p>
   <h2>Subjects &amp; levels</h2>
   <div class="subjects-grid">
     <div class="subject-card">
@@ -138,10 +139,12 @@
         <li>Advanced Mathematics</li>
       </ul>
     </div>
-    <div class="subject-card">
+    <div class="subject-card popular">
+      <div class="subject-popular-badge">Most popular</div>
       <div class="subject-year">Year 11 &amp; 12</div>
       <ul>
         <li>Mathematical Methods</li>
+        <li>Specialist Methods</li>
         <li>Specialist Mathematics</li>
         <li>Extension Mathematics</li>
       </ul>
@@ -162,7 +165,7 @@
 <hr class="divider">
 
 <!-- SERVICES -->
-<section>
+<section class="reveal">
   <p class="section-label">How I work</p>
   <h2>Flexible tutoring options</h2>
   <div class="services-grid">
@@ -202,50 +205,118 @@
 <hr class="divider">
 
 <!-- PRICING -->
-<section id="pricing">
+<section id="pricing" class="reveal">
   <p class="section-label">Pricing</p>
-  <h2>Straightforward rate</h2>
-  <div class="pricing-box">
-    <div class="price-num">$80</div>
-    <div class="price-unit">per hour</div>
-    <ul class="pricing-features">
-      <li><span class="tick">✓</span> One-to-one or small group</li>
-      <li><span class="tick">✓</span> Home visits or online</li>
-      <li><span class="tick">✓</span> Personalised lesson plan</li>
-      <li><span class="tick">✓</span> All materials provided</li>
-      <li><span class="tick">✓</span> ACT Registered Teacher</li>
-      <li><span class="tick">✓</span> Very responsive &mdash; quick turnaround</li>
-    </ul>
-    <a class="btn-primary" href="#book" style="display:block;text-align:center;">Book and pay securely</a>
+  <h2>Simple, transparent pricing</h2>
+  <p style="color:var(--ink-muted);margin-bottom:40px;font-size:15px;">All sessions include a personalised lesson plan, materials, and follow-up support. Save more with session packs.</p>
+
+  <div class="discovery-banner reveal">
+    <div class="discovery-text">
+      <div class="discovery-free">✦ Completely free</div>
+      <h3>Start with a free discovery call</h3>
+      <p>15 minutes with Pat before you commit to anything. Discuss your goals, year level, and learning style — no pressure, no obligation.</p>
+    </div>
+    <div style="flex-shrink:0;position:relative;z-index:1;">
+      <a class="btn-primary" href="#contact" style="white-space:nowrap;">Request a free call &rarr;</a>
+    </div>
   </div>
+
+  <div class="pricing-tabs">
+    <button class="pricing-tab active" onclick="showPricing('inperson')">In-person</button>
+    <button class="pricing-tab" onclick="showPricing('online')">Online</button>
+  </div>
+
+  <!-- ONLINE PRICING -->
+  <div id="pricing-online" class="pricing-group" style="display:none;">
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-card-label">Free</div>
+        <div class="pricing-card-price">$0</div>
+        <div class="pricing-card-unit">15-min discovery call</div>
+        <p class="pricing-card-desc">A free 15-minute phone call with Pat before you commit. Discuss goals, year level, and how sessions work.</p>
+        <a class="btn-outline" href="#contact" style="display:block;text-align:center;margin-top:auto;">Get in touch &rarr;</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-card-label">Single session</div>
+        <div class="pricing-card-price">$70</div>
+        <div class="pricing-card-unit">per hour</div>
+        <p class="pricing-card-desc">Sessions delivered via Zoom with a professional iPad and Apple Pencil setup, screen sharing, and a digital whiteboard for clear, interactive explanations.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_ONLINE_SINGLE" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Book session &rarr;</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-card-label">5-session pack</div>
+        <div class="pricing-card-price">$320</div>
+        <div class="pricing-card-unit">$64/hr &mdash; save $30</div>
+        <p class="pricing-card-desc">Commit to five sessions and save. Best for students targeting a specific exam or term.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_ONLINE_5PACK" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Buy 5-pack &rarr;</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-card-badge">Best value</div>
+        <div class="pricing-card-label">10-session pack</div>
+        <div class="pricing-card-price">$600</div>
+        <div class="pricing-card-unit">$60/hr &mdash; save $100</div>
+        <p class="pricing-card-desc">Maximum saving for ongoing support throughout a term or year. Most popular for Year 11 &amp; 12.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_ONLINE_10PACK" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Buy 10-pack &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- IN-PERSON PRICING -->
+  <div id="pricing-inperson" class="pricing-group">
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-card-label">Single session</div>
+        <div class="pricing-card-price">$90</div>
+        <div class="pricing-card-unit">per hour</div>
+        <p class="pricing-card-desc">I will come to your home across Canberra and surrounding suburbs. A parent or guardian must be present during all sessions. Please enquire first to confirm your location is within the service area.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_INPERSON_SINGLE" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Book session &rarr;</a>
+      </div>
+      <div class="pricing-card popular">
+        <div class="pricing-card-badge">Most popular</div>
+        <div class="pricing-card-label">5-session pack</div>
+        <div class="pricing-card-price">$400</div>
+        <div class="pricing-card-unit">$80/hr &mdash; save $50</div>
+        <p class="pricing-card-desc">Five in-person sessions at a reduced rate. Ideal for focused exam preparation. Please enquire first to confirm your location.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_INPERSON_5PACK" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Buy 5-pack &rarr;</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-card-badge">Best value</div>
+        <div class="pricing-card-label">10-session pack</div>
+        <div class="pricing-card-price">$775</div>
+        <div class="pricing-card-unit">$77.50/hr &mdash; save $125</div>
+        <p class="pricing-card-desc">Maximum saving for ongoing in-person support. Great for Year 11 &amp; 12 over a full term. Please enquire first to confirm your location.</p>
+        <a class="btn-primary" href="YOUR_STRIPE_INPERSON_10PACK" target="_blank" rel="noopener" style="display:block;text-align:center;margin-top:auto;">Buy 10-pack &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <p style="text-align:center;font-size:13px;color:var(--ink-light);margin-top:24px;">Secure checkout powered by Stripe &bull; All major cards accepted</p>
 </section>
 
 <hr class="divider">
 
-<!-- BOOK / STRIPE -->
-<section id="book">
+<!-- BOOK CTA -->
+<section id="book" class="reveal">
   <div class="book-section">
     <h2>Ready to get started?</h2>
-    <p>Book and pay securely online via Stripe. Sessions available online and in-person around Canberra.</p>
-    <!-- Replace this href with your Stripe Payment Link URL -->
-    <a class="btn-primary" href="YOUR_STRIPE_PAYMENT_LINK_HERE" target="_blank" rel="noopener">
-      Pay for a session &rarr;
-    </a>
-    <p style="margin-top: 20px; font-size: 13px; color: var(--ink-light);">
-      Secure checkout powered by Stripe &bull; All major cards accepted
-    </p>
+    <p>Book a paid session via Stripe, or fill in the contact form to request a free 15-minute discovery call &mdash; no pressure, no commitment.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a class="btn-primary" href="#contact">Request a discovery call &rarr;</a>
+      <a class="btn-secondary" href="#pricing">View all pricing</a>
+    </div>
+    <p style="margin-top:24px;font-size:13px;color:rgba(255,255,255,0.4);">Secure checkout powered by Stripe &bull; All major cards accepted</p>
   </div>
 </section>
 
 <hr class="divider">
 
 <!-- CONTACT -->
-<section id="contact">
+<section id="contact" class="reveal">
   <p class="section-label">Get in touch</p>
   <div class="contact-grid">
     <div class="contact-info">
-      <h2 style="margin-bottom: 20px;">Have a question?</h2>
-      <p style="color: var(--ink-muted); margin-bottom: 28px; font-size: 15px;">Send me a message and I'll get back to you quickly. I'm happy to discuss your needs before you commit to booking.</p>
+      <h2 style="margin-bottom: 20px;">Get in touch</h2>
+      <p style="color: var(--ink-muted); margin-bottom: 28px; font-size: 15px;">Send an enquiry or request a free 15-minute discovery call. Fill in the form and Pat will be in touch — usually same day.</p>
       <div class="contact-detail">
         <div class="contact-detail-icon">📍</div>
         <span>Canberra &amp; surrounding suburbs, ACT &mdash; and online</span>
@@ -261,24 +332,68 @@
     </div>
     <form id="contact-form" onsubmit="handleSubmit(event)">
       <input type="hidden" name="_replyto" value="patpathak3141@gmail.com">
-      <div class="form-group">
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+        <div class="form-group">
+          <label for="firstname">First name <span style="color:var(--amber-dark);">*</span></label>
+          <input type="text" id="firstname" name="firstname" placeholder="Jane" required>
+        </div>
+        <div class="form-group">
+          <label for="lastname">Last name <span style="color:var(--ink-light);font-weight:400;font-size:12px;">(optional)</span></label>
+          <input type="text" id="lastname" name="lastname" placeholder="Smith">
+        </div>
       </div>
       <div class="form-group">
-        <label for="email">Email address</label>
+        <label for="email">Email address <span style="color:var(--amber-dark);">*</span></label>
         <input type="email" id="email" name="email" placeholder="jane@example.com" required>
       </div>
       <div class="form-group">
-        <label for="subject">Subject &amp; year level</label>
-        <input type="text" id="subject" name="subject" placeholder="e.g. Mathematical Methods, Year 12">
+        <label for="phone">Phone number <span style="color:var(--ink-light);font-weight:400;font-size:12px;">(optional)</span></label>
+        <input type="tel" id="phone" name="phone" placeholder="04xx xxx xxx">
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+        <div class="form-group">
+          <label for="yearlevel">Child's year level <span style="color:var(--amber-dark);">*</span></label>
+          <select id="yearlevel" name="yearlevel" required style="width:100%;padding:12px 16px;border:1.5px solid var(--rule);border-radius:var(--radius);font-family:inherit;font-size:15px;background:var(--surface);color:var(--ink);outline:none;transition:border-color 0.2s,box-shadow 0.2s;appearance:none;">
+            <option value="" disabled selected>Select year</option>
+            <option>Year 10</option>
+            <option>Year 11</option>
+            <option>Year 12</option>
+            <option>International Baccalaureate</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject <span style="color:var(--amber-dark);">*</span></label>
+          <select id="subject" name="subject" required style="width:100%;padding:12px 16px;border:1.5px solid var(--rule);border-radius:var(--radius);font-family:inherit;font-size:15px;background:var(--surface);color:var(--ink);outline:none;transition:border-color 0.2s,box-shadow 0.2s;appearance:none;">
+            <option value="" disabled selected>Select subject</option>
+            <option>Standard Mathematics</option>
+            <option>Advanced Mathematics</option>
+            <option>Mathematical Methods</option>
+            <option>Specialist Methods</option>
+            <option>Specialist Mathematics</option>
+            <option>Extension Mathematics</option>
+            <option>IB Mathematics</option>
+            <option>General / Not sure</option>
+          </select>
+        </div>
       </div>
       <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Tell me a little about what you need help with..." required></textarea>
+        <label for="enquiry">Enquiry type <span style="color:var(--amber-dark);">*</span></label>
+        <select id="enquiry" name="enquiry" required style="width:100%;padding:12px 16px;border:1.5px solid var(--rule);border-radius:var(--radius);font-family:inherit;font-size:15px;background:var(--surface);color:var(--ink);outline:none;transition:border-color 0.2s,box-shadow 0.2s;appearance:none;">
+          <option value="" disabled selected>What are you looking for?</option>
+          <option>Request a free discovery call</option>
+          <option>Book an online session</option>
+          <option>Book an in-person session</option>
+          <option>Ask a question</option>
+        </select>
       </div>
-      <button class="btn-primary" type="submit" id="submit-btn" style="border:none;cursor:pointer;width:100%;font-family:inherit;">Send message</button>
-      <p id="form-status" style="font-size:14px;color:var(--green);display:none;text-align:center;">✓ Message sent! I'll be in touch soon.</p>
+      <div class="form-group">
+        <label for="message">Message <span style="color:var(--amber-dark);">*</span></label>
+        <textarea id="message" name="message" placeholder="Tell Pat a little about your child's current level, what they're finding difficult, and any upcoming exams or goals..." required></textarea>
+      </div>
+      <button class="btn-primary" type="submit" id="submit-btn" style="border:none;cursor:pointer;width:100%;font-family:inherit;">Send enquiry &rarr;</button>
+      <p style="font-size:12px;color:var(--ink-light);text-align:center;margin-top:4px;">* Required fields</p>
+      <p id="form-status" style="font-size:14px;color:var(--green);display:none;text-align:center;">✓ Message sent! Pat will be in touch soon.</p>
       <p id="form-error" style="font-size:14px;color:#c00;display:none;text-align:center;">Something went wrong — please try again or email patpathak3141@gmail.com directly.</p>
     </form>
   </div>
@@ -287,7 +402,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <span class="footer-logo">Pat S. Pathak</span>
+    <span class="footer-logo">Pat S. <span>Pathak</span></span>
     <span class="footer-text">Mathematics Tutor &bull; Canberra, ACT &bull; ACT Registered Teacher</span>
     <span class="footer-text">&copy; 2026 Pat S. Pathak</span>
   </div>
