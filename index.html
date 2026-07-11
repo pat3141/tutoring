@@ -102,9 +102,10 @@
   <div class="about-grid">
     <div class="about-body">
       <h2>Teacher &amp; tutor with 15+ years of experience</h2>
-      <p>I am a Mathematics teacher based in Canberra and registered with the ACT Teacher Quality Institute (TQI). I have been tutoring since the age of 15 and have helped more than 200 students through private tutoring, online lessons, and tutoring organisations across Australia and the United States. Originally from Nepal, my education spans three continents: UK-based A-Levels, a Bachelor of Mathematics in the United States, and a Master of Teaching in Australia.</p>
-      <p>My approach focuses on breaking down complex concepts into clear, manageable steps, tailored to the individual needs of each student. I emphasise first-principles thinking, abstraction, pattern recognition, and higher order problem solving. These are mathematical habits of mind that extend well beyond the classroom.</p>
-      <p>Outside of teaching, I am an endurance athlete who has completed Ironman events and World Major Marathons. I also enjoy scuba diving, table tennis, calisthenics and travelling.</p>
+      <p>I am a Mathematics teacher based in Canberra and registered with the ACT Teacher Quality Institute (TQI). I have been tutoring since the age of 15 and have supported more than 200 students through private tutoring, online lessons, and tutoring organisations across Australia and the United States.</p>
+      <p>Originally from Nepal, my education has taken me across three continents. I completed UK-based A-Levels, earned a Bachelor of Mathematics in the United States, and completed a Master of Teaching in Australia.</p>
+      <p>My teaching approach focuses on breaking down complex mathematical concepts into clear, manageable steps tailored to each student's individual needs. I emphasise first-principles thinking, abstraction, pattern recognition, and higher-order problem-solving. My goal is to help students develop the confidence and reasoning skills to tackle unfamiliar problems independently.</p>
+      <p>Outside of teaching, I am an endurance athlete who has completed Ironman events and World Marathon Majors. I also enjoy scuba diving, table tennis, calisthenics, and travelling.</p>
     </div>
     <div>
       <ul class="cred-list">
@@ -176,6 +177,7 @@
       <div class="subject-year">Year 11 &amp; 12</div>
       <ul>
         <li>Mathematical Methods</li>
+        <li>Mathematical Applications</li>
         <li>Extension Mathematics</li>
       </ul>
     </div>
@@ -250,6 +252,7 @@
   <div class="pricing-tabs">
     <button class="pricing-tab active" onclick="showPricing('inperson')">In-person</button>
     <button class="pricing-tab" onclick="showPricing('online')">Online</button>
+    <button class="pricing-tab" onclick="showPricing('grouptutoring')">Group tutoring</button>
   </div>
 
   <!-- IN-PERSON PRICING -->
@@ -312,6 +315,26 @@
         <div class="pricing-card-unit">$72.50/hr &mdash; save $75</div>
         <p class="pricing-card-desc">Maximum saving for ongoing support throughout a term or year. Most popular for Year 11 &amp; 12.</p>
         <a class="btn-primary" href="https://buy.stripe.com/14AeVf2Ljdxo3c2c05dIA0c" target="_blank" rel="noopener">Buy 10-pack &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- GROUP TUTORING PRICING -->
+  <div id="pricing-grouptutoring" class="pricing-group" style="display:none;">
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-card-label">Duo &mdash; bring a friend</div>
+        <div class="pricing-card-price">$120</div>
+        <div class="pricing-card-unit">per hour &mdash; $60 each</div>
+        <p class="pricing-card-desc">Two students learning together, splitting the cost. Great for friends or siblings at a similar level. Please enquire first to arrange.</p>
+        <a class="btn-primary" href="#contact">Enquire &rarr;</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-card-label">Trio</div>
+        <div class="pricing-card-price">$135</div>
+        <div class="pricing-card-unit">per hour &mdash; $45 each</div>
+        <p class="pricing-card-desc">Three students learning together at the lowest individual rate. Please enquire first to arrange.</p>
+        <a class="btn-primary" href="#contact">Enquire &rarr;</a>
       </div>
     </div>
   </div>
@@ -418,6 +441,7 @@
             <option>Standard Mathematics</option>
             <option>Advanced Mathematics</option>
             <option>Mathematical Methods</option>
+            <option>Mathematical Applications</option>
             <option>Specialist Methods</option>
             <option>Specialist Mathematics</option>
             <option>Extension Mathematics</option>
@@ -434,6 +458,16 @@
           <option>Book an online session</option>
           <option>Book an in-person session</option>
           <option>Ask a question</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="referral">How did you hear about me? <span class="form-label-required">*</span></label>
+        <select id="referral" name="referral" required>
+          <option value="" disabled selected>Select an option</option>
+          <option>Facebook</option>
+          <option>Google</option>
+          <option>Word of mouth (please mention name in message)</option>
+          <option>Other</option>
         </select>
       </div>
       <div class="form-group">

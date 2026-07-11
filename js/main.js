@@ -25,6 +25,7 @@ async function handleSubmit(e) {
 function showPricing(type) {
   document.getElementById('pricing-online').style.display = type === 'online' ? 'block' : 'none';
   document.getElementById('pricing-inperson').style.display = type === 'inperson' ? 'block' : 'none';
+  document.getElementById('pricing-grouptutoring').style.display = type === 'grouptutoring' ? 'block' : 'none';
   document.querySelectorAll('.pricing-tab').forEach(t => t.classList.remove('active'));
   event.target.classList.add('active');
 }

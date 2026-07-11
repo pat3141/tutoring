@@ -541,12 +541,14 @@ section h2 {
 /* PRICING TABS */
 .pricing-tabs {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 36px;
   background: rgba(15,31,61,0.06);
   padding: 4px;
   border-radius: 14px;
   width: fit-content;
+  max-width: 100%;
 }
 .pricing-tab {
   padding: 10px 30px;
