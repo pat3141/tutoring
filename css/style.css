@@ -944,4 +944,16 @@ footer {
   .services-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: 1fr; }
   .review-card { flex: 0 0 260px; }
+  .pricing-tabs {
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 4px;
+    padding: 3px;
+  }
+  .pricing-tab {
+    padding: 9px 8px;
+    font-size: 12.5px;
+    flex: 1;
+    white-space: nowrap;
+  }
 }
